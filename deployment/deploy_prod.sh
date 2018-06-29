@@ -1,6 +1,6 @@
 #!/bin/sh
-
-ssh root@104.236.57.112 <<EOF
+#root@104.236.57.112 <<EOF
+ssh -i ~/.ssh/JadeSshKey Jadedh@10.195.149.19 <<EOF
   cd djtrump
   git pull
   source /opt/envs/djtrump/bin/activate
